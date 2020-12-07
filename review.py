@@ -8,7 +8,7 @@
 
 # print(f"Hello {user_name}!!")
 
-# Integers 
+# Integers
 
 # print(2+4)
 
@@ -24,7 +24,7 @@
 
 # a float takes up more space than an integer
 
-# print(2 ** 3) 
+# print(2 ** 3)
 
 # print(8 // 3)
 
@@ -60,20 +60,22 @@
 # matrix = [[1,2,3], [4,5,6]]
 
 
-li = ["miky","toti","leo","bibi","bila"]
+# print(len(li))
 
-print(len(li))
+# methods
 
-#methods
+# li.append("nana")
 
-li.append("nana")
+# print(li)
 
-print(li)
+# li.insert(0, "jenni")
 
-li.insert(0, "jenni")
+# print(li)
 
-print(li)
+# li.remove("jenni")
 
-li.remove("jenni")
+# print(li)
 
-print(li)
+li = ["miky", "toti", "leo", "bibi", "bila"]
+
+print(li.count("miky"))
