@@ -55,3 +55,7 @@
 li = ["miky","toti","leo","bibi","bila"]
 
 print(li)
+
+li[0] = "oscar"
+
+print(li)
