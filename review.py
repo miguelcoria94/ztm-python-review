@@ -42,4 +42,4 @@
 
 # understand what exist
 
-
+# print(bin(5))
