@@ -11,3 +11,7 @@
 # Integers 
 
 print(2+4)
+
+print(4+9)
+
+print(3-9)
