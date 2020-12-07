@@ -70,3 +70,6 @@ li.append("nana")
 
 print(li)
 
+li.insert(0, "jenni")
+
+print(li)
