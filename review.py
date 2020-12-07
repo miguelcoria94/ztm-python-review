@@ -7,3 +7,7 @@
 # user_name = input("what is your name? \n")
 
 # print(f"Hello {user_name}!!")
+
+# Integers 
+
+print(2+4)
