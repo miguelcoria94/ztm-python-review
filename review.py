@@ -54,10 +54,10 @@
 
 li = ["miky","toti","leo","bibi","bila"]
 
-print(li)
+# print(li)
 
-li[0] = "oscar"
+# li[0] = "oscar"
 
-matrix = [[1,2,3], [4,5,6]]
+# matrix = [[1,2,3], [4,5,6]]
 
-print(matrix[0][0])
+print(len(li))
