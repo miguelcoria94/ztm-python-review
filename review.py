@@ -79,3 +79,7 @@
 li = ["miky", "toti", "leo", "bibi", "bila"]
 
 print(sorted(li))
+
+print(li.reverse())
+
+print(li)
