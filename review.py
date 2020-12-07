@@ -52,7 +52,6 @@
 
 # print(name.title())
 
-li = ["miky","toti","leo","bibi","bila"]
 
 # print(li)
 
@@ -60,4 +59,14 @@ li = ["miky","toti","leo","bibi","bila"]
 
 # matrix = [[1,2,3], [4,5,6]]
 
+
+li = ["miky","toti","leo","bibi","bila"]
+
 print(len(li))
+
+#methods
+
+li.append("nana")
+
+print(li)
+
