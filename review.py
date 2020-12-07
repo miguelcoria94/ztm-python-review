@@ -73,3 +73,7 @@ print(li)
 li.insert(0, "jenni")
 
 print(li)
+
+li.remove("jenni")
+
+print(li)
