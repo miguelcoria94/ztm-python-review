@@ -34,4 +34,12 @@
 
 # print(abs(-4.54))
 
+# do not read the dicationary
+
+# do not just try to read the dictionary
+
+# do not try to memorize everything
+
+# understand what exist
+
 
