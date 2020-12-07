@@ -52,6 +52,6 @@
 
 # print(name.title())
 
-li = [1,2,3,4,5]
+li = ["miky","toti","leo","bibi","bila"]
 
 print(li)
