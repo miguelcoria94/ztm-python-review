@@ -78,4 +78,4 @@
 
 li = ["miky", "toti", "leo", "bibi", "bila"]
 
-print(li.count("miky"))
+print(sorted(li))
