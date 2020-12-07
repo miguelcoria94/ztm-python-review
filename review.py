@@ -44,10 +44,10 @@
 
 # print(bin(5))
 
-name = "miky"
+# name = "miky"
 
-print("hi " + name)
+# print("hi " + name)
 
-print(f'Hi {name}')
+# print(f'Hi {name}')
 
-print(name.title())
+# print(name.title())
