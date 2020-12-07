@@ -24,3 +24,6 @@
 
 # a float takes up more space than an integer
 
+# print(2 ** 3) 
+
+# print(8 // 3)
