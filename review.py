@@ -43,3 +43,9 @@
 # understand what exist
 
 # print(bin(5))
+
+name = "miky"
+
+print("hi " + name)
+
+print(f'Hi {name}')
