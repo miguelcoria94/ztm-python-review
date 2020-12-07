@@ -49,3 +49,5 @@ name = "miky"
 print("hi " + name)
 
 print(f'Hi {name}')
+
+print(name.title())
