@@ -21,3 +21,6 @@
 # print(type(4 / 5))
 
 # print(type(2+5))
+
+# a float takes up more space than an integer
+
