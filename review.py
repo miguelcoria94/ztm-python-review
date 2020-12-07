@@ -10,14 +10,14 @@
 
 # Integers 
 
-print(2+4)
+# print(2+4)
 
-print(4+9)
+# print(4+9)
 
-print(3-9)
+# print(3-9)
 
-print(2 * 5)
+# print(2 * 5)
 
-print(type(4 / 5))
+# print(type(4 / 5))
 
-print(type(2+5))
+# print(type(2+5))
