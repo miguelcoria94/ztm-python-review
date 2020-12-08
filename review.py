@@ -97,5 +97,5 @@ dictionary = {
     'list': [1,2,3,4]
 }
 
-print(dictionary['list'][0])
+print(dictionary[0])
 
