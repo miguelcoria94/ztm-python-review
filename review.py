@@ -97,5 +97,6 @@ dictionary = {
     'list': [1,2,3,4]
 }
 
-print('a' in dictionary)
+# TUPLE
 
+my_tuple = (1,2,3,4,5)
