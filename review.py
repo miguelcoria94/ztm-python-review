@@ -103,3 +103,7 @@ my_tuple = (1, 2, 3, 4, 5)
 
 print(my_tuple.count(1))
 print(my_tuple.index(1))
+
+my_set = {1, 2, 3, 4, 5, 5}
+
+print(my_set)
