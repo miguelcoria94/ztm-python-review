@@ -88,22 +88,22 @@
 
 # Dictionaries are not in order
 
-dictionary = {
-    'a': 1,
-    'b': 2,
-    'c': 3,
-    'd': 4,
-    'e': 5,
-    'list': [1,2,3,4]
-}
+# dictionary = {
+#     'a': 1,
+#     'b': 2,
+#     'c': 3,
+#     'd': 4,
+#     'e': 5,
+#     'list': [1,2,3,4]
+# }
 
-# TUPLE
+# # TUPLE
 
-my_tuple = (1, 2, 3, 4, 5)
+# my_tuple = (1, 2, 3, 4, 5)
 
-print(my_tuple.count(1))
-print(my_tuple.index(1))
+# print(my_tuple.count(1))
+# print(my_tuple.index(1))
 
-my_set = {1, 2, 3, 4, 5, 5}
+# my_set = {1, 2, 3, 4, 5, 5}
 
-print(my_set)
+# print(my_set)
