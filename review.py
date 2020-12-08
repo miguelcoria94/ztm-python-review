@@ -93,8 +93,9 @@ dictionary = {
     'b': 2,
     'c': 3,
     'd': 4,
-    'e': 5
+    'e': 5,
+    'list': [1,2,3,4]
 }
 
-print(dictionary['x'])
+print(dictionary['list'][0])
 
