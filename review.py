@@ -86,6 +86,8 @@
 
 # Dictionary
 
+# Dictionaries are not in order
+
 dictionary = {
     'a': 1,
     'b': 2,
@@ -94,5 +96,5 @@ dictionary = {
     'e': 5
 }
 
-print(dictionary['b'])
+print(dictionary['x'])
 
