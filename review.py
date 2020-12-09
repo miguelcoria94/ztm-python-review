@@ -108,12 +108,18 @@
 
 # print(my_set)
 
-is_old = True
-is_licences = True
+# is_old = True
+# is_licences = True
 
-if is_old and is_licences:
-    print('You are old')
-else:
-    print("you are young")
+# if is_old and is_licences:
+#     print('You are old')
+# else:
+#     print("you are young")
 
-print("hi")
+# print("hi")
+
+is_friend = False
+
+can_message = "message allowed" if is_friend else "now allowed to message"
+
+print(can_message)
