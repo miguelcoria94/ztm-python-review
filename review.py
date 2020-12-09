@@ -118,8 +118,11 @@
 
 # print("hi")
 
-is_friend = False
+# is_friend = False
 
-can_message = "message allowed" if is_friend else "now allowed to message"
+# can_message = "message allowed" if is_friend else "now allowed to message"
 
-print(can_message)
+# print(can_message)
+
+for i in "miky":
+    print(i)
