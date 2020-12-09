@@ -136,6 +136,9 @@
 #     print(item)
 
 
+
+# for key, value in dictionary.items():
+#     print(key, value)
 dictionary = {
     'a': 1,
     'b': 2,
@@ -145,5 +148,11 @@ dictionary = {
     'list': [1,2,3,4]
 }
 
-for key, value in dictionary.items():
-    print(key, value)
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+count = 0
+
+for item in my_list:
+    count += item
+
+print(count)
