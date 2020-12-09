@@ -108,3 +108,8 @@
 
 # print(my_set)
 
+is_old = True
+is_licences = True
+
+if is_old:
+    print('You are old')
