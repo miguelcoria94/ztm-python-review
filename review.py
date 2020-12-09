@@ -131,14 +131,14 @@
 #     for x in ['a', 'b', 'c']:
 #         print(item, x)
 
-dictionary = {
-    'a': 1,
-    'b': 2,
-    'c': 3,
-    'd': 4,
-    'e': 5,
-    'list': [1,2,3,4]
-}
+# dictionary = {
+#     'a': 1,
+#     'b': 2,
+#     'c': 3,
+#     'd': 4,
+#     'e': 5,
+#     'list': [1,2,3,4]
+# }
 
-for item in dictionary.items():
-    print(item)
+# for item in dictionary.items():
+#     print(item)
