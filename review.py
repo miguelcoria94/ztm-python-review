@@ -111,5 +111,9 @@
 is_old = True
 is_licences = True
 
-if is_old:
+if is_old and is_licences:
     print('You are old')
+else:
+    print("you are young")
+
+print("hi")
