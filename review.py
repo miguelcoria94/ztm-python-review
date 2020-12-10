@@ -204,6 +204,6 @@
 # print(new_list)
 
 def say_hello():
-    return print('Hello')
+    print('Hello')
 
-print(say_hello())
+say_hello()
