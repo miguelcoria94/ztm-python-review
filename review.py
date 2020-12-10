@@ -203,7 +203,12 @@
 
 # print(new_list)
 
-def say_hello(name):
-    print(f'Hello {name}')
+# def say_hello(name):
+#     print(f'Hello {name}')
 
-say_hello("miky")
+# say_hello("miky")
+
+def sum(num1, num2):
+    return num1 + num2
+
+print(sum(2, 3))
