@@ -160,32 +160,44 @@
 #     if (response):
 #         break
 
-dictionary = {
-    'a': 1,
-    'b': 2,
-    'c': 3,
-    'd': 4,
-    'e': 5,
-    'list': [1,2,3,4]
-}
+# dictionary = {
+#     'a': 1,
+#     'b': 2,
+#     'c': 3,
+#     'd': 4,
+#     'e': 5,
+#     'list': [1,2,3,4]
+# }
 
-my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-picture = [
-    [0, 0, 0, 1, 0, 0, 0],
-    [0, 0, 1, 1, 1, 0, 0],
-    [0, 1, 1, 1, 1, 1, 0],
-    [1, 1, 1, 1, 1, 1, 1],
-    [0, 0, 0, 1, 0, 0, 0],
-    [0, 0, 0, 1, 0, 0, 0]
-]
+# picture = [
+#     [0, 0, 0, 1, 0, 0, 0],
+#     [0, 0, 1, 1, 1, 0, 0],
+#     [0, 1, 1, 1, 1, 1, 0],
+#     [1, 1, 1, 1, 1, 1, 1],
+#     [0, 0, 0, 1, 0, 0, 0],
+#     [0, 0, 0, 1, 0, 0, 0]
+# ]
 
-fill = "*"
-empty= ''
-for row in picture:
-    for pixel in row:
-        if pixel:
-            print(fill, end="")
-        else:
-            print(empty, end="")
-    print("")
+# fill = "*"
+# empty= ''
+# for row in picture:
+#     for pixel in row:
+#         if pixel:
+#             print(fill, end="")
+#         else:
+#             print(empty, end="")
+#     print("")
+
+some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+new_list = []
+for i in some_list:
+    count = 0
+    for j in some_list:
+        if (i == j):
+            count += 1
+    if count > 1:
+        new_list.append(i)
+
+print(new_list)
