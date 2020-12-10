@@ -203,7 +203,7 @@
 
 # print(new_list)
 
-def say_hello():
-    print('Hello')
+def say_hello(name):
+    print(f'Hello {name}')
 
-say_hello()
+say_hello("miky")
