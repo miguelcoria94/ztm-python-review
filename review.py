@@ -158,9 +158,14 @@ dictionary = {
 
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-i = 0
-while i < 50:
-    print(i)
-    i += 1
-else:
-    print("Done printing!!!")
+# i = 0
+# while i < 50:
+#     print(i)
+#     i += 1
+# else:
+#     print("Done printing!!!")
+
+# while True:
+#     response = input('What is your name? \n')
+#     if (response):
+#         break
