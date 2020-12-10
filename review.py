@@ -208,7 +208,23 @@
 
 # say_hello("miky")
 
-def sum(num1, num2):
-    return num1 + num2
+# def sum(num1, num2):
+#     return num1 + num2
 
-print(sum(2, 3))
+# print(sum(2, 3))
+
+# def super_func(*args, **kwargs):
+#     total = 0
+#     for item in kwargs.values():
+#         total += item
+#     return sum(args) + total
+
+# print(super_func(1, 2, 3, 4, 5, num1=5, num2=5))
+
+# a = "Helllloooooooo"
+
+# if ((n := len(a)) > 10):
+#     print(f"too long {n} elements")
+
+
+
