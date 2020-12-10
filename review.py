@@ -198,6 +198,7 @@ for i in some_list:
         if (i == j):
             count += 1
     if count > 1:
-        new_list.append(i)
+        if i not in new_list:
+            new_list.append(i)
 
 print(new_list)
