@@ -190,15 +190,20 @@
 #             print(empty, end="")
 #     print("")
 
-some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
-new_list = []
-for i in some_list:
-    count = 0
-    for j in some_list:
-        if (i == j):
-            count += 1
-    if count > 1:
-        if i not in new_list:
-            new_list.append(i)
+# some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+# new_list = []
+# for i in some_list:
+#     count = 0
+#     for j in some_list:
+#         if (i == j):
+#             count += 1
+#     if count > 1:
+#         if i not in new_list:
+#             new_list.append(i)
 
-print(new_list)
+# print(new_list)
+
+def say_hello():
+    return print('Hello')
+
+print(say_hello())
