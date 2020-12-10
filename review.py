@@ -147,16 +147,6 @@
 
 # print(count)
 
-dictionary = {
-    'a': 1,
-    'b': 2,
-    'c': 3,
-    'd': 4,
-    'e': 5,
-    'list': [1,2,3,4]
-}
-
-my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # i = 0
 # while i < 50:
@@ -169,3 +159,31 @@ my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 #     response = input('What is your name? \n')
 #     if (response):
 #         break
+
+dictionary = {
+    'a': 1,
+    'b': 2,
+    'c': 3,
+    'd': 4,
+    'e': 5,
+    'list': [1,2,3,4]
+}
+
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+picture = [
+    [0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 1, 1, 1, 0, 0],
+    [0, 1, 1, 1, 1, 1, 0],
+    [1, 1, 1, 1, 1, 1, 1],
+    [0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 0, 1, 0, 0, 0]
+]
+
+for row in picture:
+    for pixel in row:
+        if (pixel == 1):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print("")
