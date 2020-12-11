@@ -234,8 +234,8 @@
 # obj1 = BigObject()
 
 class PlayerCharacter:
+    membership = True
 
-    
     def __init__(self, name, age):
         self.name = name #atrributes
         self.age = age 
