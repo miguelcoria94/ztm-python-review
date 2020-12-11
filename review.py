@@ -240,6 +240,6 @@ class PlayerCharacter:
     def run(self):
         print('run')
 
-player1 = PlayerCharacter("miky")
+player1 = PlayerCharacter("cindy")
 
-print(player1.name)
+print(player1)
