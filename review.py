@@ -235,14 +235,14 @@
 
 class PlayerCharacter:
     def __init__(self, name, age):
-        self.name = name
-        self.age = age 
+        self._name = name
+        self._age = age 
 
     def run(self):
         print('run')
 
     def speak(self):
-        print(f'my name is {self.name}, and I am {self.age} years old')
+        print(f'my name is {self._name}, and I am {self._age} years old')
 
 player1 = PlayerCharacter("cindy", 13)
 
