@@ -238,8 +238,8 @@ class PlayerCharacter:
         self.name = name
 
     def run(self):
-        print('run')
+        return "run"
 
 player1 = PlayerCharacter("cindy")
 
-print(player1)
+print(player1.run())
