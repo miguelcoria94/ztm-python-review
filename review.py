@@ -291,12 +291,13 @@
 # what is a pure function
 
 list1 = [1, 2, 3]
-
+list2 = [4,5,6]
 def multiply_by2(li):
     return li * 2
 
 def check_odd(num):
     return num % 2 != 0
-print(list(filter(check_odd,list1)))
+
+print(list(zip(list2,list1)))
 
 
