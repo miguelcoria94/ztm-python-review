@@ -244,8 +244,10 @@ class PlayerCharacter:
         print('run')
         return "done"
 
+    @classmethod
+    def adding_things(cls, num1, num2):
+        return num1 + num2
+
 player1 = PlayerCharacter("cindy", 13)
 
-print(player1.age)
-
-help(player1)
+print(player1.adding_things(2,3))
