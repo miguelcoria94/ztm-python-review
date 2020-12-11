@@ -295,6 +295,8 @@ list1 = [1, 2, 3]
 def multiply_by2(li):
     return li * 2
 
-print(list(map(multiply_by2,list1)))
+def check_odd(num):
+    return num % 2 != 0
+print(list(filter(check_odd,list1)))
 
 
