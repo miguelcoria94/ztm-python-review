@@ -304,7 +304,9 @@ def accumulator(acc, item):
     return acc + item
 
 
-print((reduce(accumulator,list1, 0)))
+new_list = list(map(lambda num: num ** 2, list1))
+
+print(new_list)
 
 
 
