@@ -233,17 +233,28 @@
 
 # obj1 = BigObject()
 
-class PlayerCharacter:
-    def __init__(self, name, age):
-        self._name = name
-        self._age = age 
+# class PlayerCharacter:
+#     def __init__(self, name, age):
+#         self._name = name
+#         self._age = age 
 
-    def run(self):
-        print('run')
+#     def run(self):
+#         print('run')
 
-    def speak(self):
-        print(f'my name is {self._name}, and I am {self._age} years old')
+#     def speak(self):
+#         print(f'my name is {self._name}, and I am {self._age} years old')
 
-player1 = PlayerCharacter("cindy", 13)
+# player1 = PlayerCharacter("cindy", 13)
 
-print(player1.speak())
+# print(player1.speak())
+
+class User:
+    def sign_in(self):
+        print('logged in')
+
+class Wizard(User):
+    pass
+
+class Archer(User):
+    pass
+
