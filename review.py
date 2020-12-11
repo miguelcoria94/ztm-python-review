@@ -290,6 +290,8 @@
 
 # what is a pure function
 
+from functools import reduce
+
 list1 = [1, 2, 3]
 list2 = [4,5,6]
 def multiply_by2(li):
@@ -298,6 +300,11 @@ def multiply_by2(li):
 def check_odd(num):
     return num % 2 != 0
 
-print(list(zip(list2,list1)))
+def accumulator(acc, item):
+    return acc + item
+
+
+print((reduce(accumulator,list1, 0)))
+
 
 
