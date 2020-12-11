@@ -234,20 +234,16 @@
 # obj1 = BigObject()
 
 class PlayerCharacter:
-    membership = True
-
     def __init__(self, name, age):
-        self.name = name #atrributes
+        self.name = name
         self.age = age 
 
     def run(self):
         print('run')
-        return "done"
 
-    @classmethod
-    def adding_things(cls, num1, num2):
-        return num1 + num2
+    def speak(self):
+        print(f'my name is {self.name}, and I am {self.age} years old')
 
 player1 = PlayerCharacter("cindy", 13)
 
-print(player1.adding_things(2,3))
+print(player1.speak())
