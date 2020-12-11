@@ -234,12 +234,13 @@
 # obj1 = BigObject()
 
 class PlayerCharacter:
-    def __init__(self, name):
+    def __init__(self, name, age):
         self.name = name
+        self.age = age
 
     def run(self):
         return "run"
 
-player1 = PlayerCharacter("cindy")
+player1 = PlayerCharacter("cindy", 13)
 
-print(player1.run())
+print(player1.age)
