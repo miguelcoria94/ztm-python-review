@@ -308,11 +308,15 @@
 
 # print(new_list)
 
-list1 = [1, 2, 3, 4, 5]
+# list1 = [1, 2, 3, 4, 5]
 
-my_lisst = [char for char in 'hello']
+# my_lisst = [char for char in 'hello']
 
-print(my_lisst)
+# print(my_lisst)
+some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
 
+duplicates = (list(set([x for x in some_list if some_list.count(x) > 1])))
+
+print(duplicates)
 
 
