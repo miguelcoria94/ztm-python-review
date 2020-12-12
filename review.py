@@ -318,19 +318,36 @@
 # duplicates = (list(set([x for x in some_list if some_list.count(x) > 1])))
 
 # print(duplicates)
-def my_deco(func):
-    def wrap_func(x):
-        print('+++++')
-        func(x)
-        print('+++++')
-    return wrap_func
+# def my_deco(func):
+#     def wrap_func(x):
+#         print('+++++')
+#         func(x)
+#         print('+++++')
+#     return wrap_func
 
-@my_deco
-def hello(greeting):
-    print(greeting)
+# @my_deco
+# def hello(greeting):
+#     print(greeting)
 
 
-hello("hola")
+# hello("hola")
+from time import time
+def performance(fn):
+    def wrapper(*args, **kwargs):
+        y1 = time()
+        result = fn(*args, **kwargs)
+        y2 = time()
+        print(f'took {y2-y1} ms')
+        return result
+    return wrapper
+
+@performance
+def long_time():
+    for i in range(10000000):
+        i * 5
+
+
+long_time()
 
 
 
