@@ -318,6 +318,19 @@
 # duplicates = (list(set([x for x in some_list if some_list.count(x) > 1])))
 
 # print(duplicates)
+def my_deco(func):
+    def wrap_func(x):
+        print('+++++')
+        func(x)
+        print('+++++')
+    return wrap_func
+
+@my_deco
+def hello(greeting):
+    print(greeting)
+
+
+hello("hola")
 
 
 
