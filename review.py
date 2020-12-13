@@ -343,7 +343,7 @@ def performance(fn):
 
 @performance
 def long_time():
-    for i in range(10000000):
+    for i in range(1000000):
         i * 5
 
 
