@@ -352,7 +352,12 @@
 
 # error handling
 
-print( 1 + "dfa")
+try: 
+    print(1 + "dfa")
+except:
+    print("oops")
+
+
 
 
 
