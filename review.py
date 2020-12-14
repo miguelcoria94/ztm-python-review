@@ -357,6 +357,15 @@ try:
 except:
     print("oops")
 
+while True:
+    try:
+        age = int(input('What is your age? \n'))
+        print(age)
+    except:
+        print("please enter a number")
+    else:
+        print('Thank you')
+        break
 
 
 
