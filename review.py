@@ -367,14 +367,18 @@
 #         print('Thank you')
 #         break
 
-def sum(num1, num2):
-    try:
-        return num1 + num2
-    except TypeError as err:
-        print(f"Please enter numbers + {err}")
+# def sum(num1, num2):
+#     try:
+#         return num1 + num2
+#     except TypeError as err:
+#         print(f"Please enter numbers + {err}")
 
-print(sum('1', 2))
+# print(sum('1', 2))
 
+#generators
+
+print(range(100))
+print(list(range(100)))
 
 
 
