@@ -352,20 +352,28 @@
 
 # error handling
 
-try: 
-    print(1 + "dfa")
-except:
-    print("oops")
+# try: 
+#     print(1 + "dfa")
+# except:
+#     print("oops")
 
-while True:
+# while True:
+#     try:
+#         age = int(input('What is your age? \n'))
+#         print(age)
+#     except:
+#         print("please enter a number")
+#     else:
+#         print('Thank you')
+#         break
+
+def sum(num1, num2):
     try:
-        age = int(input('What is your age? \n'))
-        print(age)
-    except:
-        print("please enter a number")
-    else:
-        print('Thank you')
-        break
+        return num1 + num2
+    except TypeError as err:
+        print("Please enter numbers " + err)
+
+print(sum('1', 2))
 
 
 
