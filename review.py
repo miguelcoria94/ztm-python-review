@@ -393,10 +393,10 @@
 
 #
 
-def gen_func(num):
-    for i in range(num):
-        yield i*2
+# def gen_func(num):
+#     for i in range(num):
+#         yield i*2
         
-for item in gen_func(10):
-    print(item)
+# for item in gen_func(10):
+#     print(item)
 #yield pauses the function
