@@ -389,7 +389,13 @@
 # my_list = make_list(100)
 # print(my_list)
 
+# iterable is an object you can loop through
 
+#
 
-
-
+def gen_func(num):
+    for i in range(num):
+        yield i
+        
+for item in gen_func(10):
+    print(item)
