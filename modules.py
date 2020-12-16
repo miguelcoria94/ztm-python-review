@@ -5,7 +5,7 @@ num_to_guess = random.randint(1, 10)
 
 
 while True:
-    guess = input('Guess a number 1-10')
+    guess = input('Guess a number 1-10 \n')
     if int(guess) < 0:
         print('Your number is to low')
     elif int(guess) > 10:
