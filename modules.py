@@ -12,6 +12,7 @@ while True:
         print('Your number is to high')
     elif int(guess) == num_to_guess:
         print("You guessed the right number !!")
+        break
     else:
         print("Try Again")
     
