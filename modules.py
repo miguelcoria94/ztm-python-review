@@ -1,3 +1,3 @@
 import random
 
-print(random)
+print(random.random())
