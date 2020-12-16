@@ -1,3 +1,3 @@
-my_file = open('test.txt')
-
-print(my_file.read())
+with open('test.txt', mode='r+') as my_file:
+    text = my_file.write('Hey it\' me!')
+    print(text)
