@@ -1,2 +1,5 @@
 def do_stuff(num):
-    return num + 5
+    try:
+        return int(num) + 5
+    except ValueError as err:
+        return err
