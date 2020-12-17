@@ -13,4 +13,9 @@ class TestMain(unittest.TestCase):
         result = test.do_stuff(num)
         self.assertTrue(isinstance(result, ValueError))
 
+    def test_do_stuff3(self):
+        test_param = None
+        result = test.do_stuff(test_param)
+        self.assertEqual(result, 'Please enter a number')
+
 unittest.main()
